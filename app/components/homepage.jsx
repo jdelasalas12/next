@@ -33,7 +33,7 @@ const Homepage = () => {
           >
             Try free trial
           </a>
-          <div className="flex items-center w-142 h-40">
+          <div className="flex items-center">
             <a href="">
               <Image className="mr-[10]" src={play} alt="" />
             </a>

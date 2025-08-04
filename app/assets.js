@@ -5,5 +5,17 @@ import group59 from "./images/Group59.png";
 import play from "./images/Play.png";
 import rectangle from "./images/Rectangle34.png";
 import vectore from "./images/Vector32.png";
+import list from "./images/list.png";
+import close from "./images/close.png";
 
-export { charlie, frame45, frame46, group59, play, rectangle, vectore };
+export {
+  charlie,
+  frame45,
+  frame46,
+  group59,
+  play,
+  rectangle,
+  vectore,
+  list,
+  close,
+};
