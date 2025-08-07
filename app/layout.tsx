@@ -24,8 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${geistMono.variable} antialiased`}>
+    <html className="scroll-smooth" lang="en">
+      <body
+        className={`${inter.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
+      >
         {children}
       </body>
     </html>

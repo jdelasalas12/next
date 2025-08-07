@@ -11,10 +11,10 @@ const Navbar = () => {
     sideMenuRef.current.style.transform = "translateX(16rem)";
   };
   return (
-    <div>
-      <nav className="w-full flex align-center justify-around h-40px px-[10px] py-[40px] ">
+    <div className=" flex items-center fixed top-0 w-full h-20  w-full z-50 bg-[#FFFFFF] ">
+      <nav className="w-full flex justify-around align-center h-40px px-[10px] py-[40px] max-md:justify-between">
         <a
-          className="w-160px h-30px font-semibold text-3xl text-[#54BD95] "
+          className="w-160px h-30px font-semibold text-3xl text-[#52bd94] max-md:ml-[20] "
           href=""
         >
           Biccas
@@ -60,7 +60,10 @@ const Navbar = () => {
             Sign Up
           </a>
         </div>
-        <button className="block md:hidden" onClick={openMenu}>
+        <button
+          className="block md:hidden absolute right-6 top-6"
+          onClick={openMenu}
+        >
           <Image className="size-[30] cursor-pointer" src={list} alt="" />
         </button>
 
