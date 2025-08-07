@@ -30,7 +30,6 @@ export {
   group48,
   logo1,
   star,
-  bar,
   command,
   piechart,
   activity,
