@@ -13,8 +13,8 @@ import {
 const Company = () => {
   return (
     <>
-      <div className="flex w-full h-auto py-[100px] bg-[#F9F8FE] justify-center max-xl:flex-col max-xl:justify-center max-xl:content-center ">
-        <div className=" w-1/2 h-auto mt-[auto] px-[40px] ml-[150] max-xl:shrink max-xl:justify-center max-xl:m-auto">
+      <div className="flex w-full max-w-[82rem] h-auto py-[100px] m-auto bg-[#F9F8FE] justify-center max-xl:flex-col max-xl:justify-center max-xl:content-center ">
+        <div className=" w-1/2 w-full h-auto mt-[auto] px-[40px]  max-xl:shrink max-xl:justify-center max-xl:m-10 sm:px-[auto] ">
           <div className="flex w-auto h-auto flex-col">
             <h2 className="text-5xl font-semibold leading-[1.2] mb-[50] max-md:text-4xl ">
               How we support our <br />
@@ -30,14 +30,14 @@ const Company = () => {
           </div>
           <div className="flex gap-[100] ">
             <div>
-              <div className="flex gap-[5] mb-[10]">
+              <div className="flex gap-[5] mb-[10] sm:mb-[5] ">
                 <Image src={star} alt="" />
                 <Image src={star} alt="" />
                 <Image src={star} alt="" />
                 <Image src={star} alt="" />
                 <Image src={star} alt="" />
               </div>
-              <p className="text-[#191A15 text-[18px] mb-[10]">
+              <p className="text-[#191A15 text-[18px] mb-[10] sm:mb-[5]">
                 4.9 / 5 rating
               </p>
               <p className="text-[18px] text-[#A6A6A6]">databricks</p>
@@ -58,7 +58,7 @@ const Company = () => {
           </div>
         </div>
 
-        <div className="w-2/5 flex mt-[auto] mr-[150] max-xl:shrink max-xl:m-auto max-xl:mt-[100]">
+        <div className="w-2/5 flex  mr-[150] max-xl:shrink max-xl:m-auto max-xl:mt-[auto] sm:px-[auto]  sm:w-full ">
           <div className="grid grid-cols-[0.3fr_1fr] gap-4 grid-rows-<1fr_1fr_1fr> gap-4">
             <div className="flex justify-center">
               <div className="w-20 h-20 bg-[#FFFFFF] flex justify-center items-center">

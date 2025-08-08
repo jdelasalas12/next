@@ -16,11 +16,11 @@ const Homepage = () => {
   return (
     <>
       <div
-        className="flex justify-center m-auto  w-full mx-auto mt-[150] max-xl:mt-[120]  max-xl:flex-col max-md:mt-[80] max-xl:justify-center
+        className="flex justify-center max-w-[82rem] m-auto  w-full mx-auto mt-[150] max-xl:mt-[120]  max-xl:flex-col max-md:mt-[120] max-xl:justify-center 
     "
       >
-        <div className="w-4xl flex flex-col px-[80px]  max-xl:w-auto max-w-md:w-auto  ">
-          <h1 className="text-7xl font-bold leading-[90px] mb-[50] max-md:text-5xl ">
+        <div className="w-4xl flex flex-col px-[80px]  max-xl:w-auto max-w-md:w-auto  sm:px-[auto]  sm:w-full ">
+          <h1 className="text-7xl font-bold leading-[90px] max-md:leading-[1.5] mb-[50] max-md:text-5xl max-sm:text-4xl ">
             We’re here to Increase your Productivity
           </h1>
           <Image className="mb-[50]" src={vectore} alt="" />
@@ -31,23 +31,22 @@ const Homepage = () => {
           </p>
           <div className="flex items-center">
             <a
-              className="mr-[20] px-[20px] py-[12px] bg-[#54BD95] rounded-4xl text-[#FFFFFF] "
+              className="mr-[20] px-[20px] py-[12px] bg-[#54BD95] rounded-4xl text-[#FFFFFF] max-sm:py-[8px] max-sm:px-[10px] max-sm:text-xs max-sm:mr-[5]"
               href=""
             >
               Try free trial
             </a>
             <div className="flex items-center">
               <a href="">
-                <Image className="mr-[10]" src={play} alt="" />
+                <Image className="mr-[10] max-sm:mr-[5]" src={play} alt="" />
               </a>
               <a href="">
-                <p>View Demo</p>
+                <p className="max-sm:text-xs">View Demo</p>
               </a>
             </div>
           </div>
         </div>
-        <div className="w-2xl flex  justify-end px-[80px] max-xl:w-auto max-xl:justify-center max-xl:mt-[80] max-xl:m-auto">
-          {/* <div className="w-30 h-20 bg-[#FFFFFF]"></div> */}
+        <div className="w-2xl flex  justify-end px-[80px] max-xl:w-auto max-xl:justify-center max-xl:mt-[80] max-xl:m-auto max-sm:w-full max-sm:mt-[80] ">
           <div className="flex relative  w-100 h-max top-[0]">
             <Image className="" src={frame46} alt="" />
             <span className="absolute left-[-43] top-[180] z-50 text-[#FFFFFF] ">
@@ -64,7 +63,7 @@ const Homepage = () => {
               alt=""
             />
             <Image
-              className="absolute right-[-100] bottom-[50]"
+              className="absolute right-[-100] bottom-[50] max-sm:hidden"
               src={frame45}
               alt=""
             />
@@ -74,9 +73,9 @@ const Homepage = () => {
               alt=""
             />
 
-            <form className="flex flex-col h-17 w-60 absolute top-[30] ml-[-150] bg-[#FFFFFF] p-[10] leading-[20] px-[25px] py-[8px] rounded-xl">
+            <form className="flex flex-col h-17 w-60 absolute top-[30] ml-[-150] bg-[#FFFFFF] p-[10] leading-[20] px-[25px] py-[8px] rounded-xl max-sm:hidden">
               <input
-                className="text-xs text-[#A9A7B6] leading-[1.8] w-30"
+                className="text-xs text-[#A9A7B6] leading-[1.8] w-30 "
                 type="amount"
                 defaultValue=""
                 placeholder="Enter amount"
@@ -94,7 +93,7 @@ const Homepage = () => {
               </a>
               <hr className="opacity-10" />
             </form>
-            <form className="flex flex-col h-15 w-35 absolute bottom-[30] ml-[-70] bg-[#FFFFFF] p-[10] leading-[20] px-[15px] py-[7px] rounded-xl">
+            <form className="flex flex-col h-15 w-35 absolute bottom-[30] ml-[-70] bg-[#FFFFFF] p-[10] leading-[20] px-[15px] py-[7px] rounded-xl max-sm:hidden">
               <input
                 className="text-xs text-[#A9A7B6] leading-[1.8] w-30"
                 type="amount"

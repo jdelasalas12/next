@@ -11,10 +11,10 @@ const Navbar = () => {
     sideMenuRef.current.style.transform = "translateX(16rem)";
   };
   return (
-    <div className=" flex items-center fixed top-0 w-full h-20  w-full z-50 bg-[#FFFFFF] ">
-      <nav className="w-full flex justify-around align-center h-40px px-[10px] py-[40px] max-md:justify-between">
+    <div className=" flex w-full mx-auto justify-center   items-center mb-[10]  fixed top-0 w-full h-auto z-50 bg-[#FFFFFF]  ">
+      <nav className="w-full flex max-w-[82rem]  py-[40px]  justify-between  h-30px px-[40px] ">
         <a
-          className="w-160px h-30px font-semibold text-3xl text-[#52bd94] max-md:ml-[20] "
+          className="w-160px h-30px font-semibold text-3xl text-[#52bd94] "
           href=""
         >
           Biccas
@@ -61,7 +61,7 @@ const Navbar = () => {
           </a>
         </div>
         <button
-          className="block md:hidden absolute right-6 top-6"
+          className="block md:hidden absolute right-10 top-11 md:right-10"
           onClick={openMenu}
         >
           <Image className="size-[30] cursor-pointer" src={list} alt="" />
@@ -71,9 +71,9 @@ const Navbar = () => {
 
         <ul
           ref={sideMenuRef}
-          className="flex md:hidden flex-col w-64 gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 z-50 h-screen bg-green-200 transition duration-500"
+          className="flex  md:hidden flex-col w-64 gap-4 py-20 px-10 fixed  -right-64 top-0 bottom-0 z-50 h-screen bg-green-200 transition duration-500"
         >
-          <div className="absolute right-6 top-6" onClick={closeMenu}>
+          <div className="absolute right-10 top-11" onClick={closeMenu}>
             <Image className="size-[20] cursor-pointer" src={close} alt="" />
           </div>
           <li className="" onClick={closeMenu}>
