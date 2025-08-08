@@ -62,7 +62,7 @@ const Company = () => {
           </div>
         </div>
 
-        <div className="w-1/2 flex  w-full mr-[20] px-[20px] max-xl:justify-center ">
+        <div className="w-1/2 flex  w-full mr-[20] px-[20px]  max-md:px-[auto] max-xl:justify-center ">
           <div className="grid grid-cols-[0.3fr_1fr] gap-8 grid-rows-<1fr_1fr_1fr> gap-8">
             <div className="flex justify-center">
               <div className="w-20 h-20 bg-[#FFFFFF] flex justify-center items-center">

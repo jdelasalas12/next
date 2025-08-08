@@ -6,7 +6,7 @@ function Features() {
       <>
         <h1>Features</h1>
         <div>
-          <div className="flex justify-between w-full max-w-7xl m-auto">
+          <div className="flex justify-around w-full max-w-[82rem]  m-auto">
             <h2>Our Features you can get</h2>
             <p>
               We offer a variety of interesting features that you can help

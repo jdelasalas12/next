@@ -19,29 +19,31 @@ const Homepage = () => {
         className="flex justify-center max-w-[82rem] m-auto  w-full mx-auto mt-[150] max-xl:mt-[120]  max-xl:flex-col max-md:mt-[120] max-xl:justify-center 
     "
       >
-        <div className="w-4xl flex flex-col px-[80px]  max-xl:w-auto max-w-md:w-auto  sm:px-[auto]  sm:w-full ">
+        <div className="w-4xl flex flex-col px-[80px]  max-xl:w-auto max-md:px-[2.5em]">
           <h1 className="text-7xl font-bold leading-[90px] max-md:leading-[1.5] mb-[50] max-md:text-5xl max-sm:text-4xl ">
             We’re here to Increase your Productivity
           </h1>
           <Image className="mb-[50]" src={vectore} alt="" />
-          <p className="mb-[50] leading-[1.8rem]">
-            Let's make your work more organize and easily using <br /> the
-            Taskio Dashboard with many of the latest <br />
-            featuresin managing work every day.
-          </p>
-          <div className="flex items-center">
+          <div className="max-w-md mr-auto">
+            <p className="mb-[50] leading-[1.8rem] max-sm:mb-[30] tracking-wide">
+              Let's make your work more organize and easily using the Taskio
+              Dashboard with many of the latest features in managing work every
+              day.
+            </p>
+          </div>
+          <div className="flex items-center max-sm:flex-wrap max-sm:gap-[20]  ">
             <a
-              className="mr-[20] px-[20px] py-[12px] bg-[#54BD95] rounded-4xl text-[#FFFFFF] max-sm:py-[8px] max-sm:px-[10px] max-sm:text-xs max-sm:mr-[5]"
+              className="mr-[20] px-[20px] py-[15px] bg-[#54BD95] rounded-4xl text-[#FFFFFF]   max-sm:text-xs "
               href=""
             >
               Try free trial
             </a>
             <div className="flex items-center">
               <a href="">
-                <Image className="mr-[10] max-sm:mr-[5]" src={play} alt="" />
+                <Image className="mr-[10]" src={play} alt="" />
               </a>
               <a href="">
-                <p className="max-sm:text-xs">View Demo</p>
+                <p className="max-sm:text-xs ">View Demo</p>
               </a>
             </div>
           </div>
