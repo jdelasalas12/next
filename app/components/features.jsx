@@ -17,7 +17,7 @@ function Features() {
   return (
     <>
       <div className="mt-[3em] w-full max-w-[82rem] h-full m-auto">
-        <div className="flex justify-between w-full h-auto m-auto px-[2rem] py-[2rem] max-xl:flex-col max-xl:gap-[2em] max-xl:items-center  max-xl:h-[auto] max-xl:w-[auto] ">
+        <div className="flex justify-between  items-center  w-full h-auto m-auto px-[2.5rem] py-[2rem] max-xl:flex-col max-xl:gap-[2em] max-xl:items-center  max-xl:h-[auto] max-xl:w-[auto] ">
           <h2 className="px-[1.em] ml-[1.rem] font-semibold text-5xl text-[#191A15] w-[331] h-[122] max-xl:h-[auto] max-xl:w-[auto] max-md:text-4xl">
             Our Features you can get
           </h2>
@@ -26,13 +26,13 @@ function Features() {
             increase yor productivity at work and manage your project easily
           </p>
           <a
-            className=" w-[162] h-[66] flex  py-[10px] px-[10px] bg-[#54BD95] items-center justify-center rounded-[70] text-lg font-medium text-[#FFFFFF] mr-[2.5em] max-xl:h-[auto] max-xl:w-[auto] max-sm:text-xs"
+            className=" w-[162] h-[66] flex  py-[10px] px-[10px] bg-[#54BD95] items-center justify-center rounded-[70] text-lg font-medium text-[#FFFFFF] max-xl:h-[auto] max-xl:w-[auto] max-sm:text-xs"
             href=""
           >
             Get Started
           </a>
         </div>
-        <div className="w-full h-150 flex justify-between gap-[20] m-auto max-lg:flex-col max-lg:items-center max-lg:w-auto max-lg:h-auto max-lg:justify-center mb-[2.5em]  ">
+        <div className="w-full h-150 flex justify-between gap-[20] px-[2em] m-auto max-lg:flex-col max-lg:items-center max-lg:w-auto max-lg:h-auto max-lg:justify-center mb-[2.5em]  ">
           <div className="w-[340] h-[430] py-[2em] px-[2em]  max-lg:h-auto ">
             <Image className="mb-[1em]" src={F247} alt="" />
             <h2 className="text-[#191A15] text-3xl font-semibold mb-[1em] ">
@@ -63,7 +63,7 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="w-full h-auto flex py-[2em] gap-[2em] justify-between max-xl:flex-col max-xl:items-center">
+        <div className="w-full h-auto flex px-[2.5em] py-[2em] gap-[2em] justify-between max-xl:flex-col max-xl:items-center">
           <div className="w-1/2 max-w-lg h-auto mb-[20] px-[2em] max-md:px-[auto] max-md:w-auto max-md:h-full">
             <h2 className="mb-[1.05em] font-bold text-[50px] max-md:text-3xl">
               What Benefit Will You Get
