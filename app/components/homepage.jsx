@@ -16,10 +16,10 @@ const Homepage = () => {
   return (
     <>
       <div
-        className="flex justify-center max-w-[82rem] m-auto  w-full mx-auto mt-[150] max-xl:mt-[120]  max-xl:flex-col max-md:mt-[120] max-xl:justify-center 
+        className="flex justify-center max-w-[80rem] m-auto  w-full mt-[150] max-xl:mt-[120]  max-xl:flex-col max-md:mt-[120] max-xl:justify-center 
     "
       >
-        <div className="w-4xl flex flex-col px-[80px]  max-xl:w-auto max-md:px-[2.5em]">
+        <div className="w-4xl flex flex-col px-[2em]  max-xl:w-auto">
           <h1 className="text-7xl font-bold leading-[90px] max-md:leading-[1.5] mb-[50] max-md:text-5xl max-sm:text-4xl ">
             We’re here to Increase your Productivity
           </h1>

@@ -13,19 +13,16 @@ import {
 const Company = () => {
   return (
     <>
-      <div className="flex w-full max-w-[82rem] h-auto py-[70px] m-auto bg-[#F9F8FE] justify-center max-xl:flex-col">
-        <div className=" w-1/2 w-full ml-[60] h-auto px-[40px] max-xl:mb-[50] max-xl:m-auto  ">
+      <div className="flex w-full max-w-[82rem] h-auto py-[70px] px-[2rem] m-auto bg-[#F9F8FE] justify-center max-xl:flex-col">
+        <div className=" w-1/2 w-full ml-[2.5rem] h-auto max-xl:mb-[50] max-xl:m-auto ">
           <div className="flex w-auto h-auto flex-col max-xl:justify-self-center">
             <h2 className="text-5xl font-semibold leading-[1.2] mb-[50] max-md:text-4xl ">
-              How we support our <br />
-              partner all over the world
+              How we support our partner all over the world
             </h2>
             <p className="text-[16px font-medium] mb-[50] text-[#A6A6A6] tracking-wide leading-[2]">
               SaaS become a common delivery model for many business application,
-              including
-              <br /> office software, messaging software, payroll processing
-              software, DBMS software,
-              <br /> management software
+              including office software, messaging software, payroll processing
+              software, DBMS software, management software
             </p>
           </div>
           <div className="flex gap-[100] max-xl:justify-self-center max-sm:flex-wrap max-sm:gap-[20] max-sm:justify-center ">

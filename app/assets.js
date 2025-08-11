@@ -15,6 +15,15 @@ import command from "./images/command1.png";
 import piechart from "./images/pie-chart1.png";
 import activity from "./images/activity1.png";
 import startg from "./images/Star9.png";
+import F247 from "./images/Frame247.png";
+import F53 from "./images/Frame53.png";
+import F54 from "./images/Frame54.png";
+import subtract from "./images/Subtract.png";
+import rectangle48 from "./images/Rectangle48.png";
+import elipse33 from "./images/Ellipse33.png";
+import group109 from "./images/Group109.png";
+import group113 from "./images/Group113.png";
+import circle1 from "./images/circle1.png";
 
 export {
   charlie,
@@ -34,4 +43,13 @@ export {
   piechart,
   activity,
   startg,
+  F247,
+  F53,
+  F54,
+  subtract,
+  rectangle48,
+  elipse33,
+  group109,
+  group113,
+  circle1,
 };
