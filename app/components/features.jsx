@@ -17,7 +17,7 @@ function Features() {
   return (
     <>
       <div className="mt-[3em] w-full max-w-[82rem] h-full m-auto">
-        <div className="flex justify-between  items-center  w-full h-auto m-auto px-[2.5rem] py-[2rem] max-xl:flex-col max-xl:gap-[2em] max-xl:items-center  max-xl:h-[auto] max-xl:w-[auto] ">
+        <div className="flex justify-between  items-center mb-[2em] w-full h-auto m-auto px-[2.5rem] py-[2rem] max-xl:flex-col max-xl:gap-[2em] max-xl:items-center  max-xl:h-[auto] max-xl:w-[auto] ">
           <h2 className="px-[1.em] font-semibold text-5xl text-[#191A15] w-[331] h-[122] max-xl:h-[auto] max-xl:w-[auto] max-md:text-4xl">
             Our Features you can get
           </h2>
