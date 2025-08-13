@@ -314,7 +314,7 @@ function Features() {
               </a>
             </div>
           </div>
-          <div className="w-1/3 flex flex-col justify-center h-auto max-xl:w-1/2 max-sm:w-full px-[1rem] py-[1.5rem] shadow-sm rounded-[10]">
+          <div className="w-1/3 flex flex-col justify-center h-auto max-xl:w-auto  px-[2rem] py-[1.5rem] shadow-sm rounded-[10]">
             <div className="w-[300]  h-[190] relative m-auto mt-[0]">
               <p className="text-[#191A15] text-3xl font-semibold text-center leading-[3rem]">
                 Business

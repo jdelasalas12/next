@@ -24,6 +24,13 @@ import elipse33 from "./images/Ellipse33.png";
 import group109 from "./images/Group109.png";
 import group113 from "./images/Group113.png";
 import circle1 from "./images/circle1.png";
+import group212 from "./images/Group212.png";
+import elipse54 from "./images/Ellipse54.png";
+import elipse55 from "./images/Ellipse55.png";
+import elipse56 from "./images/Ellipse56.png";
+import elipse57 from "./images/Ellipse57.png";
+import group215 from "./images/Group215.png";
+import vector2 from "./images/Vector2.png";
 
 export {
   charlie,
@@ -52,4 +59,11 @@ export {
   group109,
   group113,
   circle1,
+  group212,
+  elipse54,
+  elipse55,
+  elipse56,
+  elipse57,
+  group215,
+  vector2,
 };
