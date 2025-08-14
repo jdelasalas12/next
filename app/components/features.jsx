@@ -16,7 +16,7 @@ import {
 function Features() {
   return (
     <>
-      <div className="mt-[3em] w-full max-w-[82rem] h-full m-auto">
+      <div className="mt-[3em] w-full max-w-[82rem] h-full m-auto py-[2.5rem] px-[1rem]">
         <div className="flex justify-between  items-center mb-[2em] w-full h-auto m-auto px-[2.5rem] py-[2rem] max-xl:flex-col max-xl:px-[auto] max-xl:gap-[2em] max-xl:items-center  max-xl:h-[auto] max-xl:w-[auto] ">
           <h2 className="px-[1.em] font-semibold text-5xl text-[#191A15] w-[331] h-[122] max-md:w-auto max-xl:h-[auto] max-xl:w-[auto] max-md:text-4xl">
             Our Features you can get
@@ -156,17 +156,19 @@ function Features() {
           </div>
         </div>
         <div className="w-auto h-auto mb-[2.5rem] px-[1.5rem] py-[1.5rem]">
-          <h2 className="text-[50px] font-bold text-center mb-[2.5rem]">
+          <h2 className="text-[50px] font-bold text-center mb-[2.5rem] max-sm:text-3xl">
             Choose Plan That’s Right For You
           </h2>
           <p className="text-center mb-[2.5rem] text-lg font-bold text-[#A6A6A6] tracking-wide">
             Choose plan that works best for you, feel free to contact us
           </p>
-          <div className="w-[340] h-[70] bg-[#FFFFFF] px-[1rem] py-[2.5rem] m-auto rounded-[10] flex justify-center items-center content-center gap-[20] shadow-sm">
-            <p className="text-[#191A15] font-medium text-lg">Bill Monthly</p>
+          <div className="w-[340] h-[70] bg-[#FFFFFF] px-[1rem] py-[2.5rem] m-auto rounded-[10] flex justify-center items-center content-center gap-[20] shadow-sm max-sm:w-[300] max-sm:h-[50]">
+            <p className="text-[#191A15] font-medium text-lg max-sm:text-sm">
+              Bill Monthly
+            </p>
 
             <a
-              className="px-[40] py-[15] font-medium text-lg text-[#FFFFFF]  bg-[#54BD95] rounded-[10]"
+              className="px-[40] py-[20] font-medium text-lg text-[#FFFFFF] bg-[#54BD95] rounded-[10] max-sm:text-sm"
               href=""
             >
               Bill Yearly
@@ -175,7 +177,7 @@ function Features() {
         </div>
         {/* Plans */}
 
-        <div className="w-full max-w-[82rem] px-[2rem] py-[2rem] h-auto flex gap-[2.5rem] max-xl:flex-col max-xl:items-center">
+        <div className="w-full max-w-[82rem] px-[2rem] py-[2rem] h-auto flex gap-[2.5rem] max-xl:flex-col max-xl:items-center mb-[2.5rem]">
           <div className="w-1/3 h-auto flex flex-col justify-center  px-[2rem] py-[1.5rem] shadow-sm rounded-[10]  max-xl:w-auto">
             <div className="relative h-[190] w-[300] m-auto  mt-[0]">
               <p className="text-center text-3xl font-bold leading-[3rem]">
