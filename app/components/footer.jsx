@@ -103,10 +103,12 @@ const Footer = () => {
             >
               Biccas
             </a>
-            <p>Get started now try our product</p>
+            <p className="text-[#A6A6A6] text-lg font-medium">
+              Get started now try our product
+            </p>
             <div className="relative w-[350] h-[60]text-xs text-[#A9A7B6] border-1 leading-[1.8] rounded-full border-[#A6A6A6] max-sm:w-[300] ">
               <input
-                className="relative w-[350] h-[60] text-xs text-[#A9A7B6] px-[1rem] py-[1rem] leading-[1.8] rounded-full border-[#A6A6A6] border-1 border-solid max-sm:w-[300]"
+                className="relative w-[350] h-[60] text-xs text-[#A9A7B6] px-[1rem] py-[1rem] leading-[1.8] rounded-full border-[#A6A6A6] border-1 border-solid max-sm:w-[300] text-[#A6A6A6] text-lg font-medium"
                 type="text"
                 defaultValue=""
                 placeholder="Enter your email here"
