@@ -32,6 +32,7 @@ import elipse57 from "./images/Ellipse57.png";
 import group215 from "./images/Group215.png";
 import vector2 from "./images/Vector2.png";
 import arrowright from "./images/arrow-right1.png";
+import ellipse61 from "./images/Ellipse61.png";
 
 export {
   charlie,
@@ -68,4 +69,5 @@ export {
   group215,
   vector2,
   arrowright,
+  ellipse61,
 };
