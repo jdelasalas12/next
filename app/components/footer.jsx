@@ -9,12 +9,13 @@ import {
   elipse57,
   group215,
   vector2,
+  arrowright,
 } from "../assets";
 
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#161C28] h-auto w-full max-w-[82rem] m-auto px-[2.5rem] py-[2.5rem] gap-[2.5rem] flex max-xl:flex-col max-xl:items-center  max-sm:py-[0] max-sm:px-[0]">
+      <div className="bg-[#161C28] h-auto w-full max-w-[82rem] m-auto px-[2.5rem] py-[2.5rem] gap-[2.5rem] flex max-lg:flex-col max-lg:items-center  max-sm:py-[0] max-sm:px-[0]">
         <div className="w-1/2 w-auto h-auto px-[1.5rem] py-[1.5rem]  max-sm:py-[0] max-sm:px-[0] ">
           <div className="w-[500] h-[588] px-[1rem] py-[1rem]  max-sm:w-[auto] max-sm:h-[auto] max-sm:py-[auto] max-sm:px-[auto]">
             <h1 className="text-[50px] font-bold text-[#FFFFFF] max-md:text-3xl">
@@ -92,14 +93,27 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="h-auto w-full max-w-[82rem] m-auto">
+      <div className="h-[180] w-[410] max-w-[82rem]  px-[1.5rem] py-[1.5rem] bg-[#161C28]">
         <a
-          className="w-160px h-30px font-semibold text-3xl text-[#52bd94] "
+          className="w-[160] h-[30] font-semibold text-3xl text-[#52bd94] "
           href=""
         >
           Biccas
         </a>
         <p>Get started now try our product</p>
+        <div className="relative w-[350] h-[60] text-xs text-[#A9A7B6] leading-[1.8] rounded-full border-[#A6A6A6]">
+          <input
+            className="relative w-[350] h-[60] text-xs text-[#A9A7B6] px-[1rem] py-[1rem] leading-[1.8] rounded-full border-[#A6A6A6] border-1 border-solid"
+            type="text"
+            defaultValue=""
+            placeholder="Enter your email here"
+          />
+          <span className="absolute right-[10] top-[10] px-[10] py-[10] rounded-full bg-[#54BD95]">
+            <a href="">
+              <Image src={arrowright} alt="" />
+            </a>
+          </span>
+        </div>
       </div>
     </>
   );
