@@ -13,6 +13,8 @@ import {
   circle1,
 } from "../assets";
 
+import PricingPlan from "../pricing";
+
 function Features() {
   return (
     <>
@@ -155,6 +157,7 @@ function Features() {
             </div>
           </div>
         </div>
+
         <div className="w-auto h-auto mb-[2.5rem] px-[1.5rem] py-[1.5rem]">
           <h2 className="text-[50px] font-bold text-center mb-[2.5rem] max-sm:text-3xl">
             Choose Plan That’s Right For You
@@ -162,226 +165,10 @@ function Features() {
           <p className="text-center mb-[2.5rem] text-lg font-bold text-[#A6A6A6] tracking-wide">
             Choose plan that works best for you, feel free to contact us
           </p>
-          <div className="w-[340] h-[70] bg-[#FFFFFF] px-[1rem] py-[2.5rem] m-auto rounded-[10] flex justify-center items-center content-center gap-[20] shadow-sm max-sm:w-[300] max-sm:h-[50]">
-            <p className="text-[#191A15] font-medium text-lg max-sm:text-sm">
-              Bill Monthly
-            </p>
 
-            <a
-              className="px-[40] py-[20] font-medium text-lg text-[#FFFFFF] bg-[#54BD95] rounded-[10] max-sm:text-sm"
-              href=""
-            >
-              Bill Yearly
-            </a>
-          </div>
+          <PricingPlan />
         </div>
         {/* Plans */}
-
-        <div className="w-full max-w-[82rem] px-[2rem] py-[2rem] h-auto flex gap-[2.5rem] max-xl:flex-col max-xl:items-center mb-[2.5rem]">
-          <div className="w-1/3 h-auto flex flex-col justify-center  px-[2rem] py-[1.5rem] shadow-sm rounded-[10]  max-xl:w-auto">
-            <div className="relative h-[190] w-[300] m-auto  mt-[0]">
-              <p className="text-center text-3xl font-bold leading-[3rem]">
-                Free
-              </p>
-              <p className="text-center text-[#A6A6A6] leading-[2rem] font-medium text-lg max-sm:text-base">
-                Have a go and test your superpowers
-              </p>
-
-              <p className="text-center absolute text-[#A6A6A6] font-medium text-lg top-[120] left-[100]">
-                $
-              </p>
-
-              <p className="text-center absolute text-[50px] text-[#191A15] font-semibold bottom-[0] left-[120]">
-                0
-              </p>
-            </div>
-            <div className="bg-[#F9FAFB] w-auto m-auto h-auto py-[1.5rem] px-[2.5rem] rounded-[10] flex justify-center  flex-col">
-              <div className="flex gap-[10] items-center mb-[1.5em] ">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>2 Users</p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>2 File</p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>Public Share & Comments</p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>Chat Support </p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>New income apps</p>
-              </div>
-              <a
-                className="  w-auto px-[20] py-[10] bg-[#FFFFFF] font-semibold text-center text-lg text-[#54BD95] rounded-[20] m-auto max-md:w-auto max-md:w-auto max-sm:text-sm"
-                href=""
-              >
-                Signup for free
-              </a>
-            </div>
-          </div>
-          <div className=" w-1/3 h-auto flex flex-col px-[2rem] py-[1.5rem] bg-[#54BD95] justify-center shadow-sm rounded-[20]  max-xl:w-auto">
-            <div className="w-[300]  h-[250] relative m-auto mt-[0]">
-              <p className="text-[#FFFFFF] text-center text-3xl font-semibold leading-[3rem] ">
-                Pro
-              </p>
-              <p className="text-lg font-medium text-[#FFFFFF] text-center  leading-[2rem] max-sm:text-base">
-                Have a go and test your superpowers
-              </p>
-              <p className="absolute text-lg font-medium text-[#FFFFFF] text-center top-[120] left-[110]">
-                $
-              </p>
-              <p className="absolute text-[50px]  font-medium text-[#FFFFFF] text-center bottom-[50] left-[130]">
-                0
-              </p>
-              <a
-                className="absolute bottom-[0] left-[80] w-auto h-auto px-[15] py-[15] bg-[#85DAB9] rounded-[20] text-center text-sm font-semibold text-[#FFFFFF]"
-                href=""
-              >
-                Save 50$ a year
-              </a>
-            </div>
-            <div className="h-auto w-auto px-[1.5rem] py-[1.5rem] bg-[#FFFFFF] flex justify-center flex-col mt-[2rem] rounded-[10]">
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>2 Users</p>
-              </div>
-
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>2 Users</p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>Public Share & Comments</p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>Chat Support </p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>New income apps</p>
-              </div>
-
-              <a
-                className="m-auto w-auto h-auto px-[40] py-[10] bg-[#54BD95] rounded-[20] text-center text-lg font-semibold text-[#FFFFFF] max-sm:w-auto max-sm:text-sm"
-                href=""
-              >
-                Go to pro
-              </a>
-            </div>
-          </div>
-          <div className="w-1/3 flex flex-col justify-center h-auto max-xl:w-auto  px-[2rem] py-[1.5rem] shadow-sm rounded-[10]">
-            <div className="w-[300]  h-[190] relative m-auto mt-[0]">
-              <p className="text-[#191A15] text-3xl font-semibold text-center leading-[3rem]">
-                Business
-              </p>
-              <p className="text-lg text-[#A6A6A6] font-medium text-center leading-[2rem] max-sm:text-base max-sm:leading-[auto]">
-                Unveil new superpowers and join the Design Leaque
-              </p>
-              <p className="absolute text-lg font-medium text-[#A6A6A6] text-center top-[120] left-[110]">
-                $
-              </p>
-              <p className="absolute text-[50px]  font-medium text-[#191A15] text-center bottom-[0] left-[130]">
-                0
-              </p>
-            </div>
-            <div className="bg-[#F9FAFB] py-[1.5rem] py-[1.5rem] px-[2.5rem] rounded-[10] flex justify-center flex-col">
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>2 Users</p>
-              </div>
-
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>2 Users</p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>Public Share & Comments</p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>Chat Support </p>
-              </div>
-              <div className="flex gap-[10] items-center mb-[1.5em]">
-                <Image
-                  className="max-md:w-auto max-md:h-[auto]"
-                  src={subtract}
-                  alt=""
-                />
-                <p>New income apps</p>
-              </div>
-              <a
-                className=" w-auto px-[20] py-[10] bg-[#FFFFFF] font-semibold text-center text-lg text-[#54BD95] rounded-[20] m-auto max-md:w-auto max-sm:text-sm"
-                href=""
-              >
-                Go to business
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );
