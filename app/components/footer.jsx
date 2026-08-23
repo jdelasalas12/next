@@ -50,7 +50,7 @@ const Footer = () => {
             <h2 className="text-center text-3xl text-[#FFFFFF] font-medium max-sm:text-sm">
               Get Started
             </h2>
-            <form className="w-[auto] h-[340] flex flex-col px-[1rem] py-[1rem] gap-[15] m-auto max-sm:w-[auto] max-sm:h-[auto]">
+            <form className="w-[auto] h-[340] flex flex-col px-[1rem] py-[1rem] gap-[15] m-auto max-sm:w-[auto] max-sm:h-[auto] ">
               <label
                 className="text-left text-lg font-medium text-[#FFFFFF]"
                 htmlFor=""
@@ -59,7 +59,7 @@ const Footer = () => {
               </label>
 
               <input
-                className="text-sm text-[#A9A7B6] bg-[#FFFFFF] leading-[1.8] w-[440] h-[50] rounded-[10] px-[1rem] max-xl:w-[auto] max-xl:h-[auto] max-sm:w-[auto] max-sm:h-[auto]  "
+                className="text-sm text-[#A9A7B6] bg-[#FFFFFF] leading-[1.8] w-[440] h-[50%] rounded-[10] px-[1rem] max-xl:w-full max-xl:h-[50] max-sm:w-full max-sm:h-[50]  "
                 type="text"
                 defaultValue=""
                 placeholder="Enter your email"

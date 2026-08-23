@@ -3,3 +3,8 @@
 * {
   font-family: Inter;
 }
+
+body,
+html {
+  overflow-x: hidden;
+}

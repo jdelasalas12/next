@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import type { Viewport } from "next";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -35,7 +37,9 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
