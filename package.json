@@ -12,7 +12,7 @@
     "@heroui/input": "^2.4.25",
     "@heroui/system": "^2.4.20",
     "@next/font": "^14.2.15",
-    "next": "15.4.5",
+    "next": "15.4.10",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
